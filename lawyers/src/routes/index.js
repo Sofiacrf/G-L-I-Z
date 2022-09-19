@@ -5,6 +5,7 @@ import { BrowserRouter as Route, Switch } from "react-router-dom";
 import Home from "../pages/Home"
 import AboutUs from "../pages/AboutUs"
 import Services from "../pages/Services"
+import Contact from "../pages/Contact"
 
 const RouteList = () => {
     return (
@@ -17,6 +18,9 @@ const RouteList = () => {
             </Route>
             <Route exact path="nuestros-servicios">
                 <Services />
+            </Route>
+            <Route exact path="contacto">
+                <Contact />
             </Route>
 
         </Switch>
