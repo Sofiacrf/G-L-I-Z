@@ -1,0 +1,20 @@
+.img-associate {
+    border-radius: 30px;
+    width: 100%
+}
+
+.bio {
+    margin-left: 10%;
+}
+
+.bio-text {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 16px;
+    text-align: left;
+    text-justify: inter-word;
+}
+
+.bio-container {
+    background-color: #F1F1F1;
+}

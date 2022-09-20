@@ -13,13 +13,13 @@ const RouteList = () => {
             <Route exact path="/">
                 <Home />
             </Route>
-            <Route exact path="quienes-somos">
+            <Route exact path="/quienes-somos">
                 <AboutUs />
             </Route>
-            <Route exact path="nuestros-servicios">
+            <Route exact path="/nuestros-servicios">
                 <Services />
             </Route>
-            <Route exact path="contacto">
+            <Route exact path="/contacto">
                 <Contact />
             </Route>
 
