@@ -18,9 +18,9 @@ function NavbarComponent() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#">Home</Nav.Link>
-            <Nav.Link href="/quienes-somos">Quiénes Somos</Nav.Link>
-            <Nav.Link href="/nuestros-servicios">Nuestros Servicios</Nav.Link>
+            <Nav.Link href="/">Inicio</Nav.Link>
+            <Nav.Link href="/quienes-somos">Nosotros</Nav.Link>
+            <Nav.Link href="/nuestros-servicios">Servicios</Nav.Link>
             <Nav.Link href="/contacto">Contacto</Nav.Link>
           </Nav>
         </Navbar.Collapse>

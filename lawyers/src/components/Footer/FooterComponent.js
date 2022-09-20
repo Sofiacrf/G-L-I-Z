@@ -1,6 +1,5 @@
 import React from "react";
 import bootstrapLogo from "../../assets/bootstrap-img.png";
-import "./footer.css"
 
 function FooterComponent() {
   return (
@@ -37,13 +36,13 @@ function FooterComponent() {
             <h5>Links</h5>
             <ul className="list-unstyled">
               <li className="mb-2">
-                <a href="/">Home</a>
+                <a href="/">Inicio</a>
               </li>
               <li className="mb-2">
-                <a href="/quienes-somos">Quiénes somos</a>
+                <a href="/quienes-somos">Nosotros</a>
               </li>
               <li className="mb-2">
-                <a href="/nuestros-servicios">Nuestros servicios</a>
+                <a href="/nuestros-servicios">Servicios</a>
               </li>
               <li className="mb-2">
                 <a href="/contact">Contacto</a>
