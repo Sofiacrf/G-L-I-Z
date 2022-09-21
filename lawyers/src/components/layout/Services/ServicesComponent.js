@@ -1,27 +1,32 @@
 import React from "react";
-import services from "../../../assets/services.jpg";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faScaleBalanced } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faScaleBalanced } from "@fortawesome/free-solid-svg-icons";
 import "./services.css";
+// Importing Images
+import services from "../../../assets/services.jpg";
+import books from "../../../assets/books-img.jpg";
+import written from "../../../assets/written-img.jpg";
+import sign from "../../../assets/sign-img.jpg";
 
 function ServicesComponent() {
-
-  const element = <FontAwesomeIcon icon={faScaleBalanced} />
+  // const element = <FontAwesomeIcon icon={faScaleBalanced} />;
 
   return (
     <section>
-      <div className="py-5 text-center container">
+      {/* FIRST SECTION */}
+      <div className="py-4 text-center first-section-container">
         <div className="row py-lg-5">
           <div className="col-lg-6 col-md-8 mx-auto">
-            <h1 className="fw-lightdisplay-4 fw-bold">Nuestros Servicios</h1>
+            <h1 className="fw-bold display-4 fw-bold text-title">
+              Nuestros Servicios
+            </h1>
             <p className="lead text-muted">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-              vestibulum non sapien nec cursus. Aliquam eros augue, placerat
-              vitae rutrum quis, fringilla et arcu. Vivamus vulputate metus id
-              lacinia feugiat. Fusce elementum nunc rutrum sagittis dapibus
+              Somos un equipo de profesionales. Oinvsdnvoidbnio viondaoincoia
+              vhodnvods onviodsbv oicdnvubdsv obscioac ivnoidsbvoisd boisdbvobv
+              oisiobf podnofibf oibfoidbfji obfoebefoi.
             </p>
             <p>
-              <a href="/contacto" className="btn btn-secondary">
+              <a href="/contacto" className="btn btn-custom-style">
                 Contáctanos
               </a>
             </p>
@@ -29,113 +34,72 @@ function ServicesComponent() {
         </div>
       </div>
       {/* SERVICES SECTION */}
-      {/* SERVICE ONE */}
-      <div className="services-section">
-        <div className="row-cols-md-3 g-4 m-3">
-          <div className="col responsive card">
-            <div className="services-card">
-              <img className="img-fluid resp-img" src={services} waves />
-              <div className="card-body">
-                <div className="card-title services-card-header">
-                  Servicio 1
-                </div>
-                <div className="card-text services-card-content">
-                  Lorem impusm hihaodb oidviods povionv oiciobnzdc povopdsn
-                  pnoixn bvodbv oibvoip oidbvib odvnoibv odviodb oibvoidsb
-                  podndsbv oibvids obviodbs odibvoids.
-                </div>
-                <div className="card-footer services-card-footer card-bottom">
-                  <div className="row">
-                    <div className="col md-2">
-                      {element}
-                    </div>
-                    <div className="col md-10">
-                      <a
-                        href="/contacto"
-                        type="button"
-                        className="services-card-button"
-                      >
-                        Más información
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
+
+      <div className="card-group services-section">
+        <div className="card card-container">
+          <img
+            className="card-img-top img-size"
+            src={sign}
+            alt="Card image cap"
+          />
+          <div className="card-body">
+            <h4 className="card-title text-center">Servicio 1</h4>
+            <p className="card-text text-start">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+              vestibulum non sapien nec cursus. Aliquam eros augue, placerat
+              vitae rutrum quis, fringilla et arcu. Vivamus vulputate metus id
+              lacinia feugiat. Fusce elementum nunc rutrum sagittis dapibus.
+            </p>
+          </div>
+          <div className="card-footer">
+            <div>
+              <FontAwesomeIcon icon={faScaleBalanced} />
             </div>
+            <small className="hover-style">Más información</small>
           </div>
         </div>
-      </div>
-
-      {/* SERVICE TWO */}
-      <div className="services-section">
-        <div className="row-cols-md-3 g-4 m-3">
-          <div className="col responsive card">
-            <div className="services-card">
-              <img className="img-fluid resp-img" src={services} waves />
-              <div className="card-body">
-                <div className="card-title services-card-header">
-                  Servicio 1
-                </div>
-                <div className="card-text services-card-content">
-                  Lorem impusm hihaodb oidviods povionv oiciobnzdc povopdsn
-                  pnoixn bvodbv oibvoip oidbvib odvnoibv odviodb oibvoidsb
-                  podndsbv oibvids obviodbs odibvoids.
-                </div>
-                <div className="card-footer services-card-footer card-bottom">
-                  <div className="row">
-                    <div className="col md-2">
-                      {element}
-                    </div>
-                    <div className="col md-10">
-                      <a
-                        href="/contacto"
-                        type="button"
-                        className="services-card-button"
-                      >
-                        Más información
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
+        <div className="card card-container">
+          <img
+            className="card-img-top img-size"
+            src={services}
+            alt="Card image cap"
+          />
+          <div className="card-body">
+            <h4 className="card-title text-center">Servicio 2</h4>
+            <p className="card-text text-start">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+              vestibulum non sapien nec cursus. Aliquam eros augue, placerat
+              vitae rutrum quis, fringilla et arcu. Vivamus vulputate metus id
+              lacinia feugiat. Fusce elementum nunc rutrum sagittis dapibus.
+            </p>
+          </div>
+          <div className="card-footer">
+            <div>
+              <FontAwesomeIcon icon={faScaleBalanced} />
             </div>
+            <small className="hover-style">Más información</small>
           </div>
         </div>
-      </div>
-
-      {/* SERVICES THREE */}
-      <div className="services-section">
-        <div className="row-cols-md-3 g-4 m-3">
-          <div className="col responsive card">
-            <div className="services-card">
-              <img className="img-fluid resp-img" src={services} waves />
-              <div className="card-body">
-                <div className="card-title services-card-header">
-                  Servicio 1
-                </div>
-                <div className="card-text services-card-content">
-                  Lorem impusm hihaodb oidviods povionv oiciobnzdc povopdsn
-                  pnoixn bvodbv oibvoip oidbvib odvnoibv odviodb oibvoidsb
-                  podndsbv oibvids obviodbs odibvoids.
-                </div>
-                <div className="card-footer services-card-footer card-bottom">
-                  <div className="row">
-                    <div className="col md-2">
-                      {element}
-                    </div>
-                    <div className="col md-10">
-                      <a
-                        href="/contacto"
-                        type="button"
-                        className="services-card-button"
-                      >
-                        Más información
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
+        <div className="card card-container">
+          <img
+            className="card-img-top img-size"
+            src={books}
+            alt="Card image cap"
+          />
+          <div className="card-body">
+            <h4 className="card-title text-center">Servicio 3</h4>
+            <p className="card-text text-start">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+              vestibulum non sapien nec cursus. Aliquam eros augue, placerat
+              vitae rutrum quis, fringilla et arcu. Vivamus vulputate metus id
+              lacinia feugiat. Fusce elementum nunc rutrum sagittis dapibus.
+            </p>
+          </div>
+          <div className="card-footer">
+            <div className="align-icon">
+              <FontAwesomeIcon icon={faScaleBalanced} />
             </div>
+            <small className="hover-style">Más información</small>
           </div>
         </div>
       </div>

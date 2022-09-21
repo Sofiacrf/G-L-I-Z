@@ -18,6 +18,7 @@ function FooterComponent() {
                 width="40"
                 height="32"
                 className="d-block me-2"
+                href="/"
               />
             </a>
             <h5>Lawyers</h5>
@@ -76,7 +77,7 @@ function FooterComponent() {
             ></a>
             <ul className="list-unstyled small text-muted">
               <li className="mb-2">
-                Designed and built by the company "
+                Designed and built by "
                 <a href="https://rojastechnologies.com/">Rojas Technologies</a>
                 ".
               </li>

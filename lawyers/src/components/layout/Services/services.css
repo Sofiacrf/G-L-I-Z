@@ -1,12 +1,98 @@
-.services-card-footer {
-    display: block;
-    width: 80%;
-    border: 2px solid #ac8181;
-    background-color: #f8f8ff;
-    color: #ac8181;
-    padding: 14px 28px;
-    margin-left: 10%;
-    font-size: 12px;
-    cursor: pointer;
-    text-align: center;
+/* First Section */
+.first-section-container {
+  margin-left: 10%;
+  margin-right: 10%;
 }
+
+.text-title {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #485063;
+}
+
+p {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.btn {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 12px;
+}
+
+.btn-custom-style {
+  background-color: #485063;
+  color: #f4f4f4;
+}
+
+/* Second Section */
+.services-section {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 5%;
+}
+
+.card-container {
+  margin-right: 2%;
+  margin-left: 2%;
+  /* border-style: solid;
+  border-color: #485063; */
+  background-color: #f4f4f4;;
+}
+
+.img-size {
+  height: 50%;
+}
+
+.card-title {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #485063;
+  font-weight: bold;
+}
+
+.card-footer {
+  display: block;
+  width: 80%;
+  border: 2px solid #485063;
+  background-color: #485063;
+  color: #f4f4f4;
+  padding: 14px 28px;
+  margin-bottom: 2%;
+  margin-left: 10%;
+  font-size: 12px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.text-style {
+  color: #f4f4f4;
+  font-size: 12px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* Hover Section */
+.card-footer:hover {
+  background-color: #f4f4f4;
+  color: #485063;
+}
+
+.hover-style:hover {
+  color: #485063;
+}
+
+.img-size {
+  height: 100%;
+  background-color: white;
+  opacity: 0.5;
+  transition: all 0.3s ease-in;
+}
+
+.img-size:hover {
+  background-color: transparent;
+  opacity: 2;
+}
+
+/* .btn-custom-style:hover {
+  border-style: solid;
+  border-color: #485063;
+} */

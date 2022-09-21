@@ -5,18 +5,18 @@ import associateTwo from "../../../assets/associate-two.jpg";
 
 function AboutUsComponent() {
   return (
-    <section className="border-bottom">
+    <section>
       {/* First Section */}
       <div className="px-4 my-5  display-size">
       <h1 className="display-4 fw-bold text-center title-style">Quienes Somos</h1>
-      <div className="col-lg-6 mx-auto text-style">
+      <div className="col-lg-6 mx-auto text-color">
         <p className="lead mb-4 text-center">
           Somos un equipo de profesionales cpodjoivnoifb ofdivopsdjviosnviods
           oinvsdnvoidbnio viondaoincoia vhodnvods onviodsbv oicdnvubdsv obscioac
           ivnoidsbvoisd boisdbvobv oisiobf podnofibf oibfoidbfji obfoebefoi.
         </p>
         <div className="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
-          <a href="/nuestros-servicios" className="btn btn-secondary px-4">
+          <a href="/nuestros-servicios" className="btn btn-outline-secondary px-4">
             Conoce Nuestros Servicios
           </a>
         </div>
