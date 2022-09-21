@@ -22,7 +22,7 @@ function AboutUsComponent() {
         </div>
       </div>
       {/* Image */}
-      <div className="overflow-hidden">
+      {/* <div className="overflow-hidden">
         <div className="container px-5">
           <img
             src={aboutUs}
@@ -32,7 +32,7 @@ function AboutUsComponent() {
             alt="equipo"
           />
         </div>
-      </div>
+      </div> */}
       {/* BIOS */}
       <div className="bio-container">
         {/* First BIO */}

@@ -1,0 +1,12 @@
+.services-card-footer {
+    display: block;
+    width: 80%;
+    border: 2px solid #ac8181;
+    background-color: #f8f8ff;
+    color: #ac8181;
+    padding: 14px 28px;
+    margin-left: 10%;
+    font-size: 12px;
+    cursor: pointer;
+    text-align: center;
+}
