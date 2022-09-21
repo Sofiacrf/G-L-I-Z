@@ -1,9 +1,10 @@
 import React from "react";
 import bootstrapLogo from "../../assets/bootstrap-img.png";
+import "./footer.css";
 
 function FooterComponent() {
   return (
-    <section className="footer bd-footer bg-light">
+    <section className="footer bd-footer background-c text-style">
       <div className="container py-5">
         <div className="row">
           <div className="col-lg-3 mb-3">

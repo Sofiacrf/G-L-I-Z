@@ -1,16 +1,16 @@
 import React from "react";
-import aboutUs from "../../../assets/equipo-img.jpg";
 import "./about-us.css";
 import associateOne from "../../../assets/associate-one.jpg";
 import associateTwo from "../../../assets/associate-two.jpg";
 
 function AboutUsComponent() {
   return (
-    <section className="px-4 pt-5 my-5 text-center border-bottom">
-      {/* Main Text */}
-      <h1 className="display-4 fw-bold">Quienes Somos</h1>
-      <div className="col-lg-6 mx-auto">
-        <p className="lead mb-4">
+    <section className="border-bottom">
+      {/* First Section */}
+      <div className="px-4 my-5  display-size">
+      <h1 className="display-4 fw-bold text-center title-style">Quienes Somos</h1>
+      <div className="col-lg-6 mx-auto text-style">
+        <p className="lead mb-4 text-center">
           Somos un equipo de profesionales cpodjoivnoifb ofdivopsdjviosnviods
           oinvsdnvoidbnio viondaoincoia vhodnvods onviodsbv oicdnvubdsv obscioac
           ivnoidsbvoisd boisdbvobv oisiobf podnofibf oibfoidbfji obfoebefoi.
@@ -20,6 +20,7 @@ function AboutUsComponent() {
             Conoce Nuestros Servicios
           </a>
         </div>
+      </div>
       </div>
       {/* Image */}
       {/* <div className="overflow-hidden">
@@ -33,8 +34,8 @@ function AboutUsComponent() {
           />
         </div>
       </div> */}
-      {/* BIOS */}
-      <div className="bio-container">
+      {/* BIO Section */}
+      <div className="second-section">
         {/* First BIO */}
         <div className="row row-cols-1 row-cols-md-3 g-4 m-3 my-5">
           <div className="col md-6 mb-4 responsive-img">
@@ -47,7 +48,7 @@ function AboutUsComponent() {
           </div>
 
           <div className="md-6 mb-4 associate-name">
-            <h3 className="bio">Socio 1</h3>
+            <h3 className="bio">Perengano Pérez</h3>
             <p className="bio-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
               vestibulum non sapien nec cursus. Aliquam eros augue, placerat vitae
@@ -72,7 +73,7 @@ function AboutUsComponent() {
             />
           </div>
           <div className="col md-6 mb-4 associate-name">
-            <h3 className="bio">Socio 2</h3>
+            <h3 className="bio">Fulanita Fernández</h3>
             <p className="bio-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
               vestibulum non sapien nec cursus. Aliquam eros augue, placerat vitae
