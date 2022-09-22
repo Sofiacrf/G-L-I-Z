@@ -1,0 +1,56 @@
+/* Form Size */
+.container-background {
+  background-color: #485063;
+}
+
+.align-center {
+  padding-left: 10%;
+}
+
+.title-styl {
+  color: #485063;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.text-styl {
+  color: #485063;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+  padding-top: 2%;
+}
+
+.message-size {
+  padding-bottom: 20%;
+  padding-top: 15px;
+}
+
+.btn-position {
+  padding-left: 10%;
+}
+
+.submit-btn {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+/* Media Queries */
+@media screen and (max-width: 600px) {
+  .align-center {
+    padding-right: 5%;
+  }
+
+  .submit-btn {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  label {
+    font-size: 13px;
+  }
+
+  .form-control {
+    font-size: 13px;
+  }
+
+}

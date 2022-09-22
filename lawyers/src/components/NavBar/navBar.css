@@ -1,0 +1,22 @@
+.background-c {
+    background-color: #d3d3d3;
+}
+
+.text-style {
+    font-family: 'Times New Roman', Times, serif;
+    color: #485063;
+}
+
+.brand-name {
+    color: #485063;
+}
+
+.text-size {
+    font-size: 15px;
+}
+
+@media screen and (max-width: 600px) {
+    .text-size {
+        font-size: 12px;
+    }
+}

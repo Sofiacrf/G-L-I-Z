@@ -1,9 +1,10 @@
 import React from "react";
 import bootstrapLogo from "../../assets/bootstrap-img.png";
+import "./footer.css";
 
 function FooterComponent() {
   return (
-    <section className="footer bd-footer bg-light">
+    <section className="footer bd-footer background-c text-style">
       <div className="container py-5">
         <div className="row">
           <div className="col-lg-3 mb-3">
@@ -14,19 +15,21 @@ function FooterComponent() {
             >
               <img
                 src={bootstrapLogo}
+                alt="company logo"
                 width="40"
                 height="32"
                 className="d-block me-2"
+                href="/"
               />
             </a>
             <h5>Lawyers</h5>
             <ul className="list-unstyled small text-muted">
               <li className="mb-2">
-                <a>
+                <p>
                   {" "}
                   Lorem ipsum sit amet, consectetur adipiscing elit. Proin
                   vestibulum non sapien nec cursus.
-                </a>
+                </p>
               </li>
             </ul>
           </div>
@@ -55,13 +58,13 @@ function FooterComponent() {
             <h5>Ubicación</h5>
             <ul className="list-unstyled text-muted">
               <li className="mb-2">
-                <a>Av. México, Ciudad de México, 01582</a>
+                <p>Av. México, Ciudad de México, 01582</p>
               </li>
               <li className="mb-2">
-                <a>55.12.34.56.78.9</a>
+                <p>55.12.34.56.78.9</p>
               </li>
               <li className="mb-2">
-                <a>email@me.com</a>
+                <p>email@me.com</p>
               </li>
             </ul>
           </div>
@@ -75,7 +78,7 @@ function FooterComponent() {
             ></a>
             <ul className="list-unstyled small text-muted">
               <li className="mb-2">
-                Designed and built by the company "
+                Designed and built by "
                 <a href="https://rojastechnologies.com/">Rojas Technologies</a>
                 ".
               </li>
