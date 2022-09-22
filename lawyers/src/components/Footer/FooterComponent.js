@@ -15,6 +15,7 @@ function FooterComponent() {
             >
               <img
                 src={bootstrapLogo}
+                alt="company logo"
                 width="40"
                 height="32"
                 className="d-block me-2"
@@ -24,11 +25,11 @@ function FooterComponent() {
             <h5>Lawyers</h5>
             <ul className="list-unstyled small text-muted">
               <li className="mb-2">
-                <a>
+                <p>
                   {" "}
                   Lorem ipsum sit amet, consectetur adipiscing elit. Proin
                   vestibulum non sapien nec cursus.
-                </a>
+                </p>
               </li>
             </ul>
           </div>
@@ -57,13 +58,13 @@ function FooterComponent() {
             <h5>Ubicación</h5>
             <ul className="list-unstyled text-muted">
               <li className="mb-2">
-                <a>Av. México, Ciudad de México, 01582</a>
+                <p>Av. México, Ciudad de México, 01582</p>
               </li>
               <li className="mb-2">
-                <a>55.12.34.56.78.9</a>
+                <p>55.12.34.56.78.9</p>
               </li>
               <li className="mb-2">
-                <a>email@me.com</a>
+                <p>email@me.com</p>
               </li>
             </ul>
           </div>

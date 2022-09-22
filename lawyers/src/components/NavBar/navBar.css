@@ -11,6 +11,12 @@
     color: #485063;
 }
 
-.text-style {
-    font-size: 20px;
+.text-size {
+    font-size: 15px;
+}
+
+@media screen and (max-width: 600px) {
+    .text-size {
+        font-size: 12px;
+    }
 }

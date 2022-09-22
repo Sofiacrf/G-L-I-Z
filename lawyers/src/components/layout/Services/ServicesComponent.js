@@ -5,7 +5,6 @@ import "./services.css";
 // Importing Images
 import services from "../../../assets/services.jpg";
 import books from "../../../assets/books-img.jpg";
-import written from "../../../assets/written-img.jpg";
 import sign from "../../../assets/sign-img.jpg";
 
 function ServicesComponent() {
@@ -20,13 +19,13 @@ function ServicesComponent() {
             <h1 className="fw-bold display-4 fw-bold text-title">
               Nuestros Servicios
             </h1>
-            <p className="lead text-muted">
+            <p className="lead text-muted first-paragraph">
               Somos un equipo de profesionales. Oinvsdnvoidbnio viondaoincoia
               vhodnvods onviodsbv oicdnvubdsv obscioac ivnoidsbvoisd boisdbvobv
               oisiobf podnofibf oibfoidbfji obfoebefoi.
             </p>
             <p>
-              <a href="/contacto" className="btn btn-custom-style">
+              <a href="/contacto" className="btn btn-custom-style btn-lg">
                 Contáctanos
               </a>
             </p>
@@ -40,7 +39,7 @@ function ServicesComponent() {
           <img
             className="card-img-top img-size"
             src={sign}
-            alt="Card image cap"
+            alt="Card cap"
           />
           <div className="card-body">
             <h4 className="card-title text-center">Servicio 1</h4>
@@ -55,14 +54,14 @@ function ServicesComponent() {
             <div>
               <FontAwesomeIcon icon={faScaleBalanced} />
             </div>
-            <small className="hover-style">Más información</small>
+            <a href="/contacto" className="hover-style text-reset">Más información</a>
           </div>
         </div>
         <div className="card card-container">
           <img
             className="card-img-top img-size"
             src={services}
-            alt="Card image cap"
+            alt="Card cap"
           />
           <div className="card-body">
             <h4 className="card-title text-center">Servicio 2</h4>
@@ -77,14 +76,14 @@ function ServicesComponent() {
             <div>
               <FontAwesomeIcon icon={faScaleBalanced} />
             </div>
-            <small className="hover-style">Más información</small>
+            <a href="/contacto" className="hover-style text-reset">Más información</a>
           </div>
         </div>
         <div className="card card-container">
           <img
             className="card-img-top img-size"
             src={books}
-            alt="Card image cap"
+            alt="Card cap"
           />
           <div className="card-body">
             <h4 className="card-title text-center">Servicio 3</h4>
@@ -99,7 +98,7 @@ function ServicesComponent() {
             <div className="align-icon">
               <FontAwesomeIcon icon={faScaleBalanced} />
             </div>
-            <small className="hover-style">Más información</small>
+            <a href="/contacto" className="hover-style text-reset">Más información</a>
           </div>
         </div>
       </div>

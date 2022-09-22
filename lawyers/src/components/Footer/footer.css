@@ -5,3 +5,23 @@
 h5 {
     color: #485063;
 }
+
+p {
+    font-size: 15px;
+}
+
+a {
+    font-size: 15px;
+}
+
+@media screen and (max-width: 600px) {
+    p {
+        font-size: 12px;
+    }
+    a {
+        font-size: 12px;
+    }
+    h5 {
+        font-size: 13px;
+    }
+}

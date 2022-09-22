@@ -54,3 +54,20 @@
   text-justify: inter-word;
   font-family: "Times New Roman", Times, serif;
 }
+
+@media screen and (max-width: 600px) {
+  .first-p {
+    font-size: 15px;
+  }
+  .bio {
+    font-size: 18px;
+  }
+
+  .bio-text {
+    font-size: 13px;
+  }
+
+  .img-associate {
+    width: 100%;
+  }
+}

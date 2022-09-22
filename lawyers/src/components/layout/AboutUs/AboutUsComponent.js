@@ -10,7 +10,7 @@ function AboutUsComponent() {
       <div className="px-4 my-5  display-size">
       <h1 className="display-4 fw-bold text-center title-style">Quienes Somos</h1>
       <div className="col-lg-6 mx-auto text-color">
-        <p className="lead mb-4 text-center">
+        <p className="lead mb-4 text-center first-p">
           Somos un equipo de profesionales cpodjoivnoifb ofdivopsdjviosnviods
           oinvsdnvoidbnio viondaoincoia vhodnvods onviodsbv oicdnvubdsv obscioac
           ivnoidsbvoisd boisdbvobv oisiobf podnofibf oibfoidbfji obfoebefoi.

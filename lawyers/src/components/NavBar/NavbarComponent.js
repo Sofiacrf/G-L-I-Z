@@ -12,6 +12,7 @@ function NavbarComponent() {
         <a href="/">
         <img
           src={bootstrapLogo}
+          alt="company´s logo"
           width="40"
           height="32"
           className="d-block me-2"

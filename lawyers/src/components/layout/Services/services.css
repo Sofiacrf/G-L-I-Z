@@ -23,6 +23,10 @@ p {
 .btn-custom-style {
   background-color: #485063;
   color: #f4f4f4;
+  border-style: solid;
+  border-color: #485063;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
 /* Second Section */
@@ -70,6 +74,7 @@ p {
   font-size: 12px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
 /* Hover Section */
 .card-footer:hover {
   background-color: #f4f4f4;
@@ -92,7 +97,22 @@ p {
   opacity: 2;
 }
 
-/* .btn-custom-style:hover {
-  border-style: solid;
-  border-color: #485063;
-} */
+.btn-custom-style:hover {
+  background-color: #485063;
+  color: #f4f4f4;
+}
+
+@media screen and (max-width: 600px) {
+  .first-paragraph {
+    font-size: 15px;
+  }
+
+  .card-text {
+    font-size: 13px;
+  }
+
+  .card-footer {
+    padding-top: 1%;
+    padding-bottom: 1%;
+  }
+}
