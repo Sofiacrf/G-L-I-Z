@@ -104,19 +104,19 @@ function ContactComponent() {
               <MDBCol md="6">
                 <form ref={form} onSubmit={sendEmail}>
                 <MDBCardBody className="text-black d-flex flex-column justify-content-center">
-                  <h3 className="mb-5 title-styl fw-bold align-center">Contáctanos</h3>
+                  <h3 className="mb-5 title-styl fw-bold align-center">Contact Us</h3>
 
                 
                   <MDBRow className="align-center">
                     <MDBCol md="6">
                     <div className="text-styl">
-                      <label>Nombre:</label>
+                      <label>Name:</label>
                       <MDBInput
                         wrapperClass="mb-4"
                         className="form-control"
                         id="name"
                         name="name"
-                        placeholder="Tu nombre"
+                        placeholder="Type your name"
                         type="name"
                         required
                       />
@@ -133,7 +133,7 @@ function ContactComponent() {
                         id="email"
                         name="email"
                         className="form-control"
-                        placeholder="Tu email"
+                        placeholder="Type your email"
                         type="email"
                         required
                       />
@@ -144,12 +144,12 @@ function ContactComponent() {
                   <MDBRow className="align-center">
                     <MDBCol md="6">
                     <div className="text-styl">
-                      <label>Asunto:</label>
+                      <label>Subject:</label>
                       <MDBInput
                         wrapperClass="mb-4"
                         id="title"
                         name="title"
-                        placeholder="Escribe tu asunto"
+                        placeholder="Type your subject"
                         type="text"
                         required
                       />
@@ -160,7 +160,7 @@ function ContactComponent() {
                   <MDBRow className="align-center">
                     <MDBCol md="6">
                     <div className="text-styl">
-                      <label>Mensaje:</label>
+                      <label>Message:</label>
                       <MDBInput
                         wrapperClass="mb-4"
                         id="message"
@@ -174,8 +174,8 @@ function ContactComponent() {
                   </MDBRow>
 
                   <div className="d-flex btn-position pt-1">
-                    <MDBBtn className="ms-2 submit-btn" color="warning" size="lg" onSubmit={sendEmail}>
-                      Enviar
+                    <MDBBtn className="ms-2 submit-btn" size="lg" onSubmit={sendEmail}>
+                      Send
                     </MDBBtn>
                   </div>
                 </MDBCardBody>

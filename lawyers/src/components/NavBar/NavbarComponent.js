@@ -9,23 +9,23 @@ function NavbarComponent() {
   return (
     <Navbar className="text-style background-c" expand="lg">
       <Container>
-        <a href="/">
-        <img
+        {/* <a href="/"> */}
+        {/* <img
           src={bootstrapLogo}
           alt="company´s logo"
-          width="40"
-          height="32"
+          width="50"
+          height="42"
           className="d-block me-2"
           href="/"
         />
-        </a>
-        <Navbar.Brand className="brand-name" href="/">Lawyers</Navbar.Brand>
+        </a> */}
+        <Navbar.Brand className="brand-name" href="/">GLIZ</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto text-size">
-            <Nav.Link href="/quienes-somos">Nosotros</Nav.Link>
-            <Nav.Link href="/nuestros-servicios">Servicios</Nav.Link>
-            <Nav.Link href="/contacto">Contacto</Nav.Link>
+            <Nav.Link href="/quienes-somos">About Us</Nav.Link>
+            <Nav.Link href="/nuestros-servicios">Shop!</Nav.Link>
+            <Nav.Link href="/contacto">Contact Us</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
