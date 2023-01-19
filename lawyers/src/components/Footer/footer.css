@@ -3,11 +3,11 @@
 }
 
 h5 {
-    color: #485063;
+    color:blueviolet;
 }
 
-p {
-    font-size: 15px;
+.color-grey {
+    font-size: 20px;
 }
 
 a {

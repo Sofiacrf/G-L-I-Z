@@ -1,6 +1,6 @@
 /* Form Size */
 .container-background {
-  background-color: #485063;
+  background-color: rgb(127, 177, 242);
 }
 
 .align-center {
@@ -8,14 +8,13 @@
 }
 
 .title-styl {
-  color: #485063;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: blueviolet;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .text-styl {
   color: #485063;
-  font-family: "Times New Roman", Times, serif;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 18px;
   padding-top: 2%;
 }
@@ -32,6 +31,7 @@
 .submit-btn {
   padding-left: 20%;
   padding-right: 20%;
+  background-color: rgb(207, 105, 205);
 }
 
 /* Media Queries */

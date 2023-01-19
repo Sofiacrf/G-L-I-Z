@@ -8,7 +8,7 @@ function FooterComponent() {
       <div className="container py-5">
         <div className="row">
           <div className="col-lg-3 mb-3">
-            <a
+            {/* <a
               className="d-inline-flex align-items-center mb-2 link-dark text-decoration-none"
               href="/"
               aria-label="Lawyers"
@@ -21,9 +21,9 @@ function FooterComponent() {
                 className="d-block me-2"
                 href="/"
               />
-            </a>
-            <h5>Lawyers</h5>
-            <ul className="list-unstyled small text-muted">
+            </a> */}
+            <h5>GLIZ</h5>
+            <ul className="list-unstyled small text-muted color-grey">
               <li className="mb-2">
                 <p>
                   {" "}
@@ -37,31 +37,31 @@ function FooterComponent() {
           {/* Second column */}
           <div className="col-6 col-lg-2 offset-lg-1 mb-3">
             <h5>Links</h5>
-            <ul className="list-unstyled">
+            <ul className="list-unstyled color-grey">
               <li className="mb-2">
-                <a href="/">Inicio</a>
+                <a href="/">Home</a>
               </li>
               <li className="mb-2">
-                <a href="/quienes-somos">Nosotros</a>
+                <a href="/quienes-somos">About Us</a>
               </li>
               <li className="mb-2">
-                <a href="/nuestros-servicios">Servicios</a>
+                <a href="/nuestros-servicios">Shop!</a>
               </li>
               <li className="mb-2">
-                <a href="/contact">Contacto</a>
+                <a href="/contact">Contact Us</a>
               </li>
             </ul>
           </div>
 
           {/* Third Column */}
           <div className="col-6 col-lg-2 offset-lg-1 mb-3">
-            <h5>Ubicación</h5>
-            <ul className="list-unstyled text-muted">
+            <h5>Contact Us</h5>
+            <ul className="list-unstyled text-muted color-grey">
               <li className="mb-2">
-                <p>Av. México, Ciudad de México, 01582</p>
+                <p>USA</p>
               </li>
               <li className="mb-2">
-                <p>55.12.34.56.78.9</p>
+                <p>123.45.67.89</p>
               </li>
               <li className="mb-2">
                 <p>email@me.com</p>
